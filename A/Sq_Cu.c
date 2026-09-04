@@ -1,16 +1,17 @@
 #include <stdio.h>
+#include <math.h>
 
 int main() {
     float a, c, d;
-    
-    printf("Enter the First Number: ");
+
+    printf("Enter the Number: ");
     scanf("%f", &a);
 
-    c = (a*a );
-    d = (a*a*a );
+    c = pow(a, 2);
+    d = pow(a, 3);
 
-    printf("The Square is %f\n", c); 
-    printf("The cube is %f\n", d); 
+    printf("The Square is %.2f\n", c);
+    printf("The Cube is %.2f\n", d);
 
     return 0;
-}   
+}

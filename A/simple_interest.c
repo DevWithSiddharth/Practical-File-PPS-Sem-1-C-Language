@@ -1,20 +1,20 @@
 #include <stdio.h>
 
 int main() {
-    float a, b, c,d;
+    float a, b, c, d;
 
     printf("Enter the Principal amount: ");
     scanf("%f", &a);
 
-    printf("Enter the Rate of interest per annum: "); 
+    printf("Enter the Rate of interest per annum: ");
     scanf("%f", &b);
 
-    printf("Enter the Time period (in years): "); 
+    printf("Enter the Time period (in years): ");
     scanf("%f", &c);
 
-    c = ((a * b * c)/100)+a;
+    d = (a * b * c) / 100;
 
-    printf("The simple interest is %f\n", c); 
+    printf("The simple interest is %.2f\n", d);
 
     return 0;
-}   
+}
